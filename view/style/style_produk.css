@@ -1,0 +1,145 @@
+body{
+	font-family: "century gothic";
+	
+}
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.header{
+	background-color: #43a047;
+	*rgb(60, 185, 99)
+}
+.header .judul{
+	height: 28px;
+}
+.ul1{
+	display: inline-block;
+	position: absolute;
+	left: 60px;
+}
+.ul2{
+	display: inline-block;
+	position: absolute;
+	right: 110px;
+}
+.header .judul li{
+	display: inline-block;
+	padding: 1px 7px;
+}
+.header .judul a{
+	color: white;
+	font-size: 13px;
+	display: inline-block;
+	text-decoration: none;
+}
+.header .judul a:hover{
+	color: #cfd8dc;
+	text-decoration: none;
+}
+.navbar{
+	margin-bottom: 2px;
+	box-shadow: 0 5px 10px -4px rgb(60, 185, 99);
+	border-radius: 0px!important;
+}
+.nav-link{
+	font-size: 1rem!important;
+	color: rgb(47, 47, 47)!important;
+}
+.nav-link:hover{
+	position: relative!important;
+	top: 0!important;
+	bottom: 0!important;
+	background-color: rgb(249, 249, 249);
+}
+.li-produk{
+	color: white!important;
+	background-color: rgb(60, 185, 99)!important;
+}
+.nav-link:hover{
+	background-color: rgb();
+}
+.navbar-brand{
+	color: rgb(47, 47, 47)!important;
+	margin-left: 150px!important;
+}
+#navigasi .container{
+	position: relative;
+}
+.sign{
+	margin-top: 4px;
+	padding: 2px 1px;
+	width: 5rem;
+	margin-left: 2px;x
+	background-color: rgb(60, 185, 99);
+}
+
+
+
+/*Menu Produk*/
+.menu_produk{
+	margin-top: 10px;
+}
+.menu_produk .child_header{
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size: 16px;
+	color: rgb(60, 185, 99);
+	font-style: italic;
+	margin-left: 10px;
+}
+.menu_produk .child_header:hover{
+	text-decoration: none;	
+}
+.custom_filter{
+	font-size: 17px;
+	display: inline-block;
+	padding: 3px 5px;  
+	text-align: center;
+}
+.custom-select{
+	border-color: rgb(60, 185, 99)!important;
+}
+.menu_produk .custom_produk{
+	text-align: center;
+}
+.menu_produk .card-title{
+	font-size: 17px;
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+.menu_produk .img-thumbnail{
+	border-style: none!important;
+}
+.menu_produk .card-body p{
+	font-size: 12px;
+}
+.menu_produk .card{
+	margin-bottom: 5px!important;
+}
+.menu_produk .card-title{
+	color: rgb(39, 45, 50);
+}
+/*Tentang-Kami*/
+.tentang-kami{
+	background-color: rgb(249, 249, 249);
+	border-top: solid;
+	border-bottom: solid;
+	border-color: rgb(232, 234, 237);
+}
+.tentang-kami p{
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size: 15px;
+}
+.tentang-kami span{
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	text-transform: capitalize;
+	font-size: 16px;
+	font-style: italic;
+}
+.
+/*footer*/
+footer{
+	background-color: rgb(54, 57, 72);
+	padding-top: 5px;
+
+}
